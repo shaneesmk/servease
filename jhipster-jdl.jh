@@ -1,0 +1,39 @@
+
+entity Customer {
+	
+	 searchKey String,
+	 name String,
+	 profilePic ImageBlob,
+	 phone String
+     
+	}
+
+
+entity Product{
+	
+	
+	name String,
+	description String,
+	brand String,
+	image ImageBlob,
+	quantity Double,
+     price Double
+}
+entity Cart{
+
+	customerId Long,
+	productId Long,
+	productName String,
+	productPrice Double
+}
+
+
+ 
+
+
+
+
+paginate all with pagination
+service all with serviceImpl
+
+angularSuffix * with mySuffix
